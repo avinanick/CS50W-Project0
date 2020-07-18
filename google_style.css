@@ -9,7 +9,11 @@
 }
 
 .search-descriptor {
-    font-size: small;
+    font-size: 15px;
+}
+
+.search-instruction {
+    font-size: 13px;
 }
 
 .header {
