@@ -29,6 +29,14 @@
     width: 100%;
 }
 
+#advanced-search-button {
+    background-color: rgb(0, 177, 236);
+    color: white;
+    float: right;
+    height: 40px;
+    width: 200px;
+}
+
 #index_search {
     margin: auto;
     width: 50%;
