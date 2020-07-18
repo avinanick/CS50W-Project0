@@ -7,12 +7,12 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 300px auto;
+    grid-template-columns: 210px 300px auto;
     padding: 10px;
 }
 
 .grid-item {
-    padding: 10px;
+    margin: 5px;
 }
 
 .search-descriptor {
