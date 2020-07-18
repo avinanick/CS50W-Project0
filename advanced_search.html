@@ -11,7 +11,23 @@
             <h2>Advanced Search</h2>
         </div>
         <div id="search_options">
-            <form action="https://google.com/search">
+            <form action="https://google.com/search" class="grid-container">
+                <div class="grid-item"> Find pages with...</div>
+                <div  class="grid-item"></div>
+                <div class="grid-item">To do this in the search box</div>
+                <div class="grid-item">all these words:</div>
+                <input type="text" name="as_q" class="grid-item"> 
+                <div class="grid-item">Type the important words</div>
+                <div class="grid-item">this exact word or phrase:</div>
+                <input type="text" name="as_epq" class="grid-item"> 
+                <div class="grid-item">Put exact words in quotes</div>
+                <div class="grid-item">any of these words:</div>
+                <input type="text" name="as_oq" class="grid-item"> 
+                <div class="grid-item">Type OR between all the words you want</div>
+                <div class="grid-item">none these words:</div>
+                <input type="text" name="as_eq" class="grid-item"> 
+                <div class="grid-item">Put a minus sign before words you don't want</div>
+                <input type="submit" value="Advanced Search">
             </form>
         </div>
     </body>
