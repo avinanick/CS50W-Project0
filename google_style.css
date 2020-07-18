@@ -1,3 +1,10 @@
+.advanced-title {
+    border-bottom: 1px solid gray;
+    color: red;
+    padding: 15px;
+    width: 100%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 200px 300px auto;
@@ -17,9 +24,9 @@
 }
 
 .header {
-    width: 100%;
     height: 50px;
     text-align: right;
+    width: 100%;
 }
 
 #index_search {
