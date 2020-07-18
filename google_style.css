@@ -37,6 +37,10 @@
     width: 200px;
 }
 
+#advanced-search-header {
+    background-color: lightgray;
+}
+
 #index_search {
     margin: auto;
     width: 50%;
