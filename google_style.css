@@ -41,11 +41,25 @@
     background-color: lightgray;
 }
 
-#index_search {
+#index_search, #image_search {
     margin: auto;
     width: 50%;
 }
 
 #main_search_bar {
     border-radius: 25px;
+    width: 250px;
+    height: 20px;
+}
+
+input[type="submit"] {
+    border-color: white;
+    color: gray;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    border-color: gray;
+    color: black;
 }
