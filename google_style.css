@@ -15,6 +15,13 @@
     margin: 5px;
 }
 
+.page-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
 .search-descriptor {
     font-size: 15px;
 }
@@ -41,7 +48,7 @@
     background-color: lightgray;
 }
 
-#index_search {
+#index_search, #image_search {
     margin: auto;
     width: 50%;
 }
